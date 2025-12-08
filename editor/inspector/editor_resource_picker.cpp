@@ -1432,7 +1432,7 @@ EditorResourcePicker::EditorResourcePicker(bool p_hide_assign_button_controls) {
 	make_unique_button->set_flat(true);
 	make_unique_button->set_accessibility_name(TTRC("Number of Linked Resources."));
 	make_unique_button->set_tooltip_auto_translate_mode(AUTO_TRANSLATE_MODE_DISABLED);
-	make_unique_button->set_button_mask(MouseButtonMask::LEFT | MouseButtonMask::RIGHT);
+	make_unique_button->set_button_mask(MouseButtonMask::LEFT);
 	make_unique_button->set_action_mode(BaseButton::ACTION_MODE_BUTTON_PRESS);
 	make_unique_button->set_theme_type_variation(SNAME("EditorInspectorButton"));
 	add_child(make_unique_button);
